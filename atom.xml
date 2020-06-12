@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://isme4444.com</id>
-    <title>昨天我梦见你了</title>
-    <updated>2020-06-12T14:34:18.442Z</updated>
+    <title>烟河故人</title>
+    <updated>2020-06-12T19:02:50.126Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://isme4444.com"/>
     <link rel="self" href="https://isme4444.com/atom.xml"/>
-    <subtitle>I dreamed of you yesterday</subtitle>
     <logo>https://isme4444.com/images/avatar.png</logo>
     <icon>https://isme4444.com/favicon.ico</icon>
-    <rights>All rights reserved 2020, 昨天我梦见你了</rights>
+    <rights>All rights reserved 2020, 烟河故人</rights>
     <entry>
         <title type="html"><![CDATA[测试]]></title>
         <id>https://isme4444.com/post/ce-shi/</id>
