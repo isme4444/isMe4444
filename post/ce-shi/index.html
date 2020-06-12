@@ -26,9 +26,6 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.10.1/dist/katex.min.css">
 <script defer src="https://cdn.jsdelivr.net/npm/katex@0.10.1/dist/katex.min.js"></script>
 
-        <script src="https://cdn.jsdelivr.net/gh/itjoker233/Gridea-theme-Chic@latest/assets/media/script/APlayer.min.js"></script>
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.css">
-        
                 <script>
                     (function() {
                         var bp = document.createElement('script');
@@ -81,7 +78,7 @@
                         <input id="switch_default" type="checkbox" class="switch_default">
                         <label for="switch_default" class="toggleBtn"></label>
             </div>
-            <form id="gridea-search-form" data-update="1591950942135" action="/search/index.html">
+            <form id="gridea-search-form" data-update="1591951440815" action="/search/index.html">
                 <input class="search-input" autocomplete="off" spellcheck="false" name="q" autofocus="true" placeholder="Search...">
             </form>
         </div>
@@ -100,7 +97,7 @@
                         <!--zh-->
                         <a id="mobile-toggle-theme-zh" class="a zh">&nbsp;&#x6697;&#x9ED1;</a>
                     </div>
-                    <form id="gridea-search-form" data-update="1591950942135" action="/search/index.html">
+                    <form id="gridea-search-form" data-update="1591951440815" action="/search/index.html">
                         <input class="search-input" autocomplete="off" spellcheck="false" name="q" autofocus="true" placeholder="Search...">
                     </form>
                     <!--en-->
@@ -203,14 +200,34 @@
                         </div>
                         
                                 
+                                    
+                                        <!--en-->
+                                        <section class="post-copyright en">
+                                            <p class="copyright-item">
+                                                <span>Author:</span>
+                                                <span>昨天我梦见你了</span>
+                                            </p>
+
+                                            <p class="copyright-item">
+                                                <span>Permalink:</span>
+                                                <span><a href="https://isme4444.com/post/ce-shi/">https://isme4444.com/post/ce-shi/</a></span>
+                                            </p>
+
+                                            <p class="copyright-item">
+                                                <span>License:</span>
+                                                <span>MIT License</span>
+                                            </p>
+                                        </section>
+                                        
+                                                
                                                     
                                                         <!-- Share-->
                                                         <span style="margin-right:15px">
                                                     <i class="post-share"></i>
                                                     <span>Share:</span>
                                                         <a title="QR Code" target="_blank" href="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://isme4444.com/post/ce-shi/"><i class="fa fa-qrcode"></i></a>
-                                                        <a title="QQ" target="_blank" href="https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=https://isme4444.com/post/ce-shi/&sharesource=qzone&title=测试&pics=https://isme4444.com/images/avatar.png?v=1591950942135&summary="><i class="fa fa-qq"></i></a>
-                                                        <a title="Weibo" target="_blank" href="https://service.weibo.com/share/share.php?url=https://isme4444.com/post/ce-shi/&sharesource=weibo&title=测试 + " - " + &pic="https://isme4444.com/images/avatar.png?v=1591950942135 "><i class="fa fa-weibo "></i></a>
+                                                        <a title="QQ" target="_blank" href="https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=https://isme4444.com/post/ce-shi/&sharesource=qzone&title=测试&pics=https://isme4444.com/images/avatar.png?v=1591951440815&summary="><i class="fa fa-qq"></i></a>
+                                                        <a title="Weibo" target="_blank" href="https://service.weibo.com/share/share.php?url=https://isme4444.com/post/ce-shi/&sharesource=weibo&title=测试 + " - " + &pic="https://isme4444.com/images/avatar.png?v=1591951440815 "><i class="fa fa-weibo "></i></a>
                                                         
                                                                 </span>
                                                                 <!--en-->
@@ -248,8 +265,6 @@
     </div>
     </div>
     
-    <div id="player"></div>
-    
         <footer id="footer" class="footer">
             <div class="copyright">
                 
@@ -266,8 +281,8 @@
                                                 document.write("" + date.getFullYear());
                                             </script>
                                             | Powered by
-                                            <a href="" target="_blank">
-                                                
+                                            <a href="https://coding.net" target="_blank">
+                                                Coding.net
                                             </a>
             </div>
             <div id="update" style="display:none;">
@@ -283,28 +298,6 @@
         
                 <script>
                     
-
-                    function LoadPlayer() {
-                        var music_array = [];
-                        
-                        music_array.push({
-                            name: '和你在一起',
-                            url: 'https://3g.163.com/v/video/VJ8EKC5HT.html?referFrom=baidu&amp;isFromOtherWeb=true',
-                            artist: '李志',
-                            cover: '',
-                        });
-                        
-                        console.log(" MusicList: " + music_array);
-                        
-                        const ap = new APlayer({
-                            container: document.getElementById('player'),
-                            mini: true,
-                            audio: music_array
-                        });
-                        
-                    }
-                    LoadPlayer();
-                    
                     
                     
                     getStar();
@@ -312,7 +305,7 @@
                     console.clear();
                     
                     var newDate = new Date();
-                    newDate.setTime(1591950942135);
+                    newDate.setTime(1591951440815);
                     console.log(" Blog Update Time: " + newDate.toLocaleDateString());
                     console.log("\n %c \u26a1Theme:Chic Author's Blog:https://blog.itjoker.cn  Write By ITJoker  \n\n", "color: #ffffff; background: rgba(49, 49, 49, 0.85); padding:5px 0;border-radius:5px;");
                 </script>
